@@ -1,14 +1,11 @@
 body{
     background-image: url("mountain.jpg");
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
     height:125vh;
     font-family: sans-serif;
     margin-top:80px;
     padding:5px;
-}
-main{
-    color:black;
 }
 header{
     background-color: black;
@@ -20,20 +17,23 @@ header{
     display:flex;
     align-items:center;
     box-shadow:0 0 25px 0 white;
-
-}
-header *{
     display:inline;
 }
+.list1{
+    font-size: large;
+    font-family:impact;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+}
+
 header li {
     margin:20px;
 }
 header li a{
     color:white;
     text-decoration: none;
-}
-.about-me{
-    ;
 }
 .container {
     padding: 20px 40px 40px;
@@ -55,4 +55,7 @@ img{
     height: 250px;
     width:auto;
     border:5px solid gray;
+}
+ul{
+    color:white;
 }
