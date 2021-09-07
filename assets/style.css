@@ -2,7 +2,7 @@ body{
     background-image: url("mountain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:125vh;
+    height:100%;
     font-family: sans-serif;
     margin-top:80px;
     padding:5px;
@@ -35,6 +35,12 @@ header li a{
     color:white;
     text-decoration: none;
 }
+.about-me{
+    color:white;
+    display:flex;
+    justify-content:center;
+    text-decoration: underline;
+}
 .container {
     padding: 20px 40px 40px;
     max-width: 640px;
@@ -56,6 +62,19 @@ img{
     width:auto;
     border:5px solid gray;
 }
-ul{
+.projects{
     color:white;
+}
+
+h3{
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+.list2{
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    
+
 }
