@@ -27,7 +27,9 @@ header{
     align-items: center;
     height: 1px;
 }
-
+a{
+    color: white;
+}
 header li {
     margin:20px;
 }
@@ -65,7 +67,17 @@ img{
 .projects{
     color:white;
 }
-
+.container2, .container3{
+    position:relative;
+}
+.text-over, .text-over2{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 h3{
     color: white;
     display:flex;
@@ -75,6 +87,9 @@ h3{
     color:white;
     display:flex;
     justify-content: space-evenly;
+    text-decoration: none;
     
-
+}
+footer{
+    text-align: center;
 }
