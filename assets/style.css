@@ -1,5 +1,5 @@
 body{
-    background-image: url("mountain.jpg");
+    background-image: url("mountain2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
@@ -16,6 +16,7 @@ header{
     align-items:center;
     box-shadow:0 0 25px 0 white;
     display:inline;
+    z-index: 99;
 }
 .myname{
     color:white;
@@ -76,6 +77,10 @@ img{
     margin-left:150px;
     margin-right:150px;
 }
+img[src="assets/Screen Shot 2021-09-07 at 12.44.38 PM.png"] {
+    height:400px;
+}
+
 .text-over, .text-over2{
     position: absolute;
     bottom: 20px;
@@ -103,10 +108,5 @@ footer{
 @media screen and (max-width:600px){
     .family-photo{
         display:none;
-    }
-    .nav a{
-        float:none;
-        width:100%;
-    }
     }
 }
