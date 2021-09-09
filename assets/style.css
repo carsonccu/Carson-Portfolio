@@ -1,3 +1,4 @@
+/* added a background image and basic text */
 body{
     background-image: url("mountain2.jpg");
     background-repeat: no-repeat;
@@ -5,6 +6,7 @@ body{
     font-family: sans-serif;
     margin-top:80px;
 }
+/* made a header which is the black box on top */
 header{
     background-color: black;
     position:fixed;
@@ -17,11 +19,13 @@ header{
     box-shadow:0 0 25px 0 white;
     display:inline;
     z-index: 99;
+/* added my name to the header */
 }
 .myname{
     color:white;
     font-size: 35px;
     list-style: none;
+/* added a flexbox for my links in the header */
 }
 .list1{
     font-size: large;
@@ -47,6 +51,7 @@ header li a{
     justify-content:left;
     text-decoration: underline;
 }
+/* put my image and paragraph in a container */
 .container {
     padding: 20px 40px 40px;
     max-width: 640px;
@@ -66,21 +71,24 @@ img{
     height: 250px;
     width:auto;
     border:5px solid gray;
+/* a border element for all images */
 }
 .projects{
     color:white;
     font-size: xx-large;
     text-decoration: underline;
 }
+
 .container2, .container3{
     position:relative;
     margin-left:150px;
     margin-right:150px;
 }
+/* changed the size of my first project */
 img[src="assets/Screen Shot 2021-09-07 at 12.44.38 PM.png"] {
     height:400px;
 }
-
+/* this added titles to my projects */
 .text-over, .text-over2{
     position: absolute;
     bottom: 20px;
